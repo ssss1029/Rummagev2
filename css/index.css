@@ -1,0 +1,42 @@
+body {
+    min-width:300px;
+    padding-top: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background-color: #eee !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+.navbar {
+	background: #2ecc71 !important;
+}
+a:focus,input:focus {
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    outline:0 !important;
+}
+.navbar-brand {
+	  font-family: 'Poiret One', cursive !important;
+	  color: white !important;
+	  font-size: 25px !important;
+	  padding: 15px 3px !important;
+}
+input.list-group-item {
+	width: 100% !important;
+	margin-bottom: -1px !important;
+}
+.panel-group {
+	margin-bottom: 0px !important;
+}
+.fa-stack {
+	float: left;
+	font-size: 120%;
+	display: inline;
+	margin-top: 8px;
+	margin-left: 5px;
+	color: white;
+}
+.fa-stack-1x {
+	color: #2ecc71
+}
