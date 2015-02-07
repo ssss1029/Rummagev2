@@ -99,3 +99,7 @@
 .btn-yahoo:active,.btn-yahoo.active,.open>.dropdown-toggle.btn-yahoo{background-image:none}
 .btn-yahoo.disabled,.btn-yahoo[disabled],fieldset[disabled] .btn-yahoo,.btn-yahoo.disabled:hover,.btn-yahoo[disabled]:hover,fieldset[disabled] .btn-yahoo:hover,.btn-yahoo.disabled:focus,.btn-yahoo[disabled]:focus,fieldset[disabled] .btn-yahoo:focus,.btn-yahoo.disabled:active,.btn-yahoo[disabled]:active,fieldset[disabled] .btn-yahoo:active,.btn-yahoo.disabled.active,.btn-yahoo[disabled].active,fieldset[disabled] .btn-yahoo.active{background-color:#720e9e;border-color:rgba(0,0,0,0.2)}
 .btn-yahoo .badge{color:#720e9e;background-color:#fff}
+.btn-box{color:#fff;background-color:#1087dd;border-color:rgba(0,0,0,0.2)}.btn-box:hover,.btn-box:focus,.btn-box:active,.btn-box.active,.open>.dropdown-toggle.btn-box{color:#fff;background-color:#0d6aad;border-color:rgba(0,0,0,0.2)}
+.btn-box:active,.btn-box.active,.open>.dropdown-toggle.btn-box{background-image:none}
+.btn-box.disabled,.btn-box[disabled],fieldset[disabled] .btn-box,.btn-box.disabled:hover,.btn-box[disabled]:hover,fieldset[disabled] .btn-box:hover,.btn-box.disabled:focus,.btn-box[disabled]:focus,fieldset[disabled] .btn-box:focus,.btn-box.disabled:active,.btn-box[disabled]:active,fieldset[disabled] .btn-box:active,.btn-box.disabled.active,.btn-box[disabled].active,fieldset[disabled] .btn-box.active{background-color:#1087dd;border-color:rgba(0,0,0,0.2)}
+.btn-box .badge{color:#1087dd;background-color:#fff}

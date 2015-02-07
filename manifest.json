@@ -1,18 +1,28 @@
 {
   "manifest_version": 2,
 
-  "name": "Find It",
-  "description": "Search through all your files in the cloud.",
+  "name": "rummage",
+  "description": "Search through all your files in the cloud XD.",
   "version": "1.0",
 
   "browser_action": {
     "default_icon": "img/32.png",
     "default_popup": "index.html"
   },
+
+  "oauth2": {
+    "client_id": "56427870871-6ip6smbq8l74no03a8ptaeq2um6vvsmg.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive"
+    ]
+  }, 
+     "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAshAZI/5uOk4ePeP+qXV373LX8Vu7dj0/mvVHO0VIHo0Rf4jSrHZnLguOlG93t2nyK4azbkSKPZK3KiplAafO+Hpv79Zk1XhL7XKzfYS/JESRv1/cCidyBNlBItr+mo393umwgsPjE+ZCY6PrMKwYfCFdGx8h1nxuc6j3g4llE2+uBlD6gqVVb4W9zd09o2aGAmo5rKqUxqgdU++cme5KRJDRRYKT9GO6SL93KQikPYo8kF7uFL/wyYlAGe5I3EFvi6g8Gigjie422ZCOhjSYvDySLgt8ogO2m7S6TFrFZU3D5ze3Ltq2bXKrBjd18KsmBhDlUeD8qTKy+UIX10Z50wIDAQAB",
+
   "icons": { "16": "img/16.png", "32": "img/32.png", "128": "img/128.png" },
   "permissions": [
     "https://*.google.com/*",
-    "activeTab"
+    "activeTab",
+    "identity"
   ],
   "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'"
 }
