@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
 
 
 
@@ -57,7 +59,7 @@
 				<button type="button" id="googlebutton" data-toggle="popover" title="Login" data-content="xx" class="btn btn-google-plus btn-block"><i class="fa fa-google"></i> Google Drive</button>
 				<button type="button" class="btn btn-dropbox btn-block"><i class="fa fa-dropbox"></i> Dropbox</button>
 				<button type="button" class="btn btn-github btn-block"><i class="fa fa-git"></i> Github</button>
-				<button type="button" class="btn btn-box btn-block"><i class="fa fa-dropbox"></i> Box</button>
+				<button type="button" id ="boxbutton" class="btn btn-box btn-block"><i class="fa fa-dropbox"></i> Box</button>
 			</div>
 	    </div>
 	  </div>
@@ -75,10 +77,21 @@
 			</div>
 		    <div class="panel-body">
 				<div class="alert btn-google-plus alert-dismissible" role="alert">
-				  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				  <strong><i class="fa fa-google"></i> Google Drive</strong>
+				  <button type="button" id="closeGoogle" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  <strong><i class="fa fa-google"></i> Google </strong>
 				</div>
-
+				<div class="alert btn-google-plus alert-dismissible" role="alert">
+				  <button type="button" id="closeDropbox" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  <strong><i class="fa fa-google"></i> Dropbox </strong>
+				</div>
+				<div class="alert btn-google-plus alert-dismissible" role="alert">
+				  <button type="button" id="closeBox" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  <strong><i class="fa fa-google"></i> Box </strong>
+				</div>
+				<div class="alert btn-google-plus alert-dismissible" role="alert">
+				  <button type="button" id="closeGithub" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  <strong><i class="fa fa-google"></i> GitHub </strong>
+				</div>
 			</div>
 
 	    </div>
