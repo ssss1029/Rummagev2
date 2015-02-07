@@ -11,6 +11,7 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
@@ -71,21 +72,18 @@
 			  <input class="list-group-item" placeholder="Search accounts...">
 			</div>
 		    <div class="panel-body">
-				<div class="alert btn-google-plus alert-dismissible" role="alert">
-				  <button type="button" id="closeGoogle" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				  <strong><i class="fa fa-google"></i> Google </strong>
-				</div>
-				<div class="alert btn-google-plus alert-dismissible" role="alert">
-				  <button type="button" id="closeDropbox" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				  <strong><i class="fa fa-google"></i> Dropbox </strong>
-				</div>
-				<div class="alert btn-google-plus alert-dismissible" role="alert">
-				  <button type="button" id="closeBox" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				  <strong><i class="fa fa-google"></i> Box </strong>
-				</div>
-				<div class="alert btn-google-plus alert-dismissible" role="alert">
-				  <button type="button" id="closeGithub" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				  <strong><i class="fa fa-google"></i> GitHub </strong>
+				<div class="alert alert-warning alert-dismissible" id="closeGoogle" role="alert">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  	<strong>Google</strong> 
+				</div><div class="alert alert-warning alert-dismissible" id="closeGithub" role="alert">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  	<strong>GitHub</strong>
+				</div><div class="alert alert-warning alert-dismissible" id="closeDropbox" role="alert">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  	<strong>Dropbox</strong>
+				</div><div class="alert alert-warning alert-dismissible" id="closeBox" role="alert">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  	<strong>Box</strong>
 				</div>
 			</div>
 

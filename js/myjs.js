@@ -7,14 +7,14 @@ $(document).ready(function() {
 	$("#closeDropbox").hide(); 
 	$("#closeBox").hide(); 
 
+// ################################################################## GOOGLE DRIVE
+	
 	var googleAuthTokenVariable;
 	
 	document.querySelector("#googlebutton").addEventListener("click", function() {
-		chrome.identity.getAuthToken({"interactive": true}, function(token) {
+		chrome.identity.getAuthToken({"interactive": true}, function(token) {			
 			googleAuthTokenVariable = token;
-			alert("Google Authentication Token: " + token);
 			chrome.cookies.set({url:'http://www.google.com/', name:'token', value:token}, function(cookie) {
-				alert("Cookie made XDD"); 
 				$("#googlebutton").hide(); 
 				$("#closeGoogle").show(); 
 			})
@@ -29,8 +29,8 @@ $(document).ready(function() {
 		$("#googlebutton").show(); 
 	});
 
-	var boxAuthTokenVariable; 
 
+	var boxAuthTokenVariable; 
 	$("#boxbutton").click(function() {
 		chrome.identity.launchWebAuthFlow( 
 			{
